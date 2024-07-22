@@ -13,9 +13,10 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // Usa HashRouter en producción y BrowserRouter en desarrollo
 const Router = isProduction ? HashRouter : BrowserRouter;
+const mySite = isProduction ? "/mi-sitio" : "";
 
 ReactDOM.render(
-  <Router>
+  <Router basename={mySite}>
     <App />
   </Router>,
   document.getElementById('root') // Monta la aplicación en el elemento con id 'root'

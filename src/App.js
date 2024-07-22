@@ -11,7 +11,6 @@ import Post1 from './components/Posts/Post1';
 
 const App = () => (
   <>
-    {/* <Router basename="/mi-sitio"> */}
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -22,7 +21,6 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
-      {/* </Router> */}
   </>
     
   );
