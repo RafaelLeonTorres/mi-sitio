@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mi-sitio/static/css/main.31408948.css",
-    "main.js": "/mi-sitio/static/js/main.68632e47.js",
-    "static/media/profile-picture.jpg": "/mi-sitio/static/media/profile-picture.e17d15037445109a9290.jpg",
-    "static/media/Rafael_Leon_Resume_ES.pdf": "/mi-sitio/static/media/Rafael_Leon_Resume_ES.9cfa8e922c764a202b8f.pdf",
-    "static/media/Rafael_Leon_Resume_EN.pdf": "/mi-sitio/static/media/Rafael_Leon_Resume_EN.4fa6d75d691a394b5f95.pdf",
-    "index.html": "/mi-sitio/index.html",
-    "main.31408948.css.map": "/mi-sitio/static/css/main.31408948.css.map",
-    "main.68632e47.js.map": "/mi-sitio/static/js/main.68632e47.js.map"
+    "main.css": "./static/css/main.31408948.css",
+    "main.js": "./static/js/main.d550fa2a.js",
+    "static/media/profile-picture.jpg": "./static/media/profile-picture.e17d15037445109a9290.jpg",
+    "static/media/Rafael_Leon_Resume_ES.pdf": "./static/media/Rafael_Leon_Resume_ES.9cfa8e922c764a202b8f.pdf",
+    "static/media/Rafael_Leon_Resume_EN.pdf": "./static/media/Rafael_Leon_Resume_EN.4fa6d75d691a394b5f95.pdf",
+    "index.html": "./index.html",
+    "main.31408948.css.map": "./static/css/main.31408948.css.map",
+    "main.d550fa2a.js.map": "./static/js/main.d550fa2a.js.map"
   },
   "entrypoints": [
     "static/css/main.31408948.css",
-    "static/js/main.68632e47.js"
+    "static/js/main.d550fa2a.js"
   ]
 }
