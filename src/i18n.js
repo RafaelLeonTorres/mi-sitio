@@ -12,6 +12,7 @@ const resources = {
         I’ve worked in the financial industry at CECOBAN (Authorized Certification Provider) and in the banking industry at CITIBANAMEX.
         I was part of the team that carried out the regulatory process for transitioning from CFDI version 3.3 to 4.0, as well as the implementation of the Carta Porte 2.0 add-on. I worked on various projects related to invoice generation for different banks within CECOBAN.
         Additionally, I contributed to CITI’s bank separation efforts, migrating components to new infrastructure, making necessary adjustments, and conducting deployments and testing to ensure proper functionality across different environments.`,
+        leadership: "Leadership",
         teamwork: "Team Work",
         problemResolution: "Problem Resolution",
         persistence: "Persistence",
@@ -39,7 +40,7 @@ const resources = {
         cloudDescription: "Some experience with some services from Azure."
       },
       experiences: {
-        title: "Experiences",
+        title: "Experience",
         solutionsTeamLeader: {
           title: "Solutions Team Leader",
           company: "NTT DATA Europe & Latam",
@@ -103,6 +104,7 @@ const resources = {
         He trabajado en la industria financiera en CECOBAN (Proveedor de Certificación Autorizado) y en la industria bancaria en CITIBANAMEX.
         Fui parte del equipo que llevó a cabo el proceso regulatorio para la transición de la versión 3.3 a la 4.0 del CFDI, así como la implementación del complemento Carta Porte 2.0. Trabajé en varios proyectos relacionados con la generación de facturas para diferentes bancos dentro de CECOBAN.
         Además, contribuí a los esfuerzos de separación del banco de CITI, migrando componentes a la nueva infraestructura, realizando los ajustes necesarios y llevando a cabo despliegues y pruebas para asegurar el funcionamiento adecuado en los diferentes entornos.`,
+        leadership: "Liderazgo",
         teamwork: "Trabajo en Equipo",
         problemResolution: "Resolución de Problemas",
         persistence: "Persistencia",
@@ -130,9 +132,9 @@ const resources = {
         cloudDescription: "Algo de experiencia con algunos servicios de Azure."
       },
       experiences: {
-        title: "Experiencias",
+        title: "Experiencia",
         solutionsTeamLeader: {
-          title: "Líder del equipo de soluciones",
+          title: "Solutions Team Leader",
           company: "NTT DATA Europe & Latam",
           period: "Mayo 2022 - Mayo 2024",
           description: "Trabajé con el cliente CITIBANAMEX en nombre de NTT DATA en aplicaciones de escritorio y API para las aplicaciones del banco. Las tareas que realicé incluyen las siguientes:",
