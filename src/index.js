@@ -8,16 +8,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';  // Importa Bootstrap CSS
 import './styles.css';
 import './i18n';
 
-// // Determina el entorno de ejecución
-// const isProduction = process.env.NODE_ENV === 'production';
+// Determina el entorno de ejecución
+const isProduction = process.env.NODE_ENV === 'production';
 
-// // Selecciona el Router basado en el entorno
-// const Routers = isProduction ? HashRouter : BrowserRouter;
+// Selecciona el Router basado en el entorno
+const Routers = isProduction ? HashRouter : BrowserRouter;
+
+const basenameEnv = isProduction ? process.env.PUBLIC_URL : "";
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Routers basename={basenameEnv}>
     <App />
-  </BrowserRouter>,
+  </Routers>,
   document.getElementById('root') // Monta la aplicación en el elemento con id 'root'
 );
