@@ -20,7 +20,6 @@ const App = () => (
           <Route path="/post1" element={<Post1 />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Home/>
         <Footer />
   </>
     
