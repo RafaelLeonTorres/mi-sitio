@@ -18,8 +18,8 @@ const basenameEnv = isProduction ? process.env.PUBLIC_URL : "";
 
 
 ReactDOM.render(
-  <Routers basename={basenameEnv}>
+  <BrowserRouter basename={basenameEnv}>
     <App />
-  </Routers>,
+  </BrowserRouter>,
   document.getElementById('root') // Monta la aplicación en el elemento con id 'root'
 );
