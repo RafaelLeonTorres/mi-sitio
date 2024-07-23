@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Routes } from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import Navigation from './components/Navbar';
 import Home from './components/Home';
 import Skills from './components/Skills';
@@ -18,7 +18,7 @@ const App = () => (
           <Route path="/experiences" element={<Experiences />} />
           <Route path="/posts" element={<Post/>} />
           <Route path="/post1" element={<Post1 />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />        
         </Routes>
         <Footer />
   </>
