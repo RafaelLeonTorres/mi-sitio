@@ -137,7 +137,7 @@ const resources = {
           title: "Solutions Team Leader",
           company: "NTT DATA Europe & Latam",
           period: "Mayo 2022 - Mayo 2024",
-          description: "Trabajé con el cliente CITIBANAMEX en nombre de NTT DATA en aplicaciones de escritorio y API para las aplicaciones del banco. Las tareas que realicé incluyen las siguientes:",
+          description: "Trabajé con el cliente CITIBANAMEX por parte de de NTT DATA en aplicaciones de escritorio y API para las aplicaciones del banco. Las tareas que realicé incluyen las siguientes:",
           task1: "Agregar funcionalidad a las aplicaciones del banco (aplicación y objetos de base de datos).",
           task2: "Análisis de cambios para validar impactos.",
           task3: "Resolución de errores y soporte al equipo de QA.",
